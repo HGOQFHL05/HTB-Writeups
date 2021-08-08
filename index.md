@@ -10,4 +10,4 @@ layout: home
 
 ## Walkthroughs
 
-[The Notebook](HTB-Writeups/TheNotebook/)
+[The Notebook](TheNotebook/)
