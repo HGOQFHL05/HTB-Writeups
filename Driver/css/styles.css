@@ -1,0 +1,158 @@
+.top-link{
+    /*color: #11999E */
+    /*color:#00ADB5;*/
+    color:#F0F0F0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+hr{
+    color:lightblue;
+    padding 0;
+    margin: 0;
+    height:20px;
+    background: #393E46;
+    border: 0;
+
+}
+h2{
+    text-align:left;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+
+}
+h3{
+    text-align:left;
+    padding: 10px 10px 0px 10px;
+}
+ol{
+    text-align:left;
+    line-height:2;
+}
+p{
+    padding: 0px 10px;
+    text-align:left;
+    font-size: 1em;
+    line-height:2;
+}
+
+/***** Body *****/
+body{
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    /*color: #40514E;*/
+    color: #393E46;
+    /*background-color: lightblue;*/
+    /*background-color:#00ADB5*/
+    /*background-color:#A6E3E9;*/
+    background-color:#393E46;
+}
+.top-con{
+    padding: 25px;
+    /*background: linear-gradient(to top, #373737, #212121);*/
+    /*background: linear-gradient(to top, gray, tan);*/
+    /*background-color: lightblue;*/
+    /*background-color:#222831;*/
+    background-color:#393E46;
+}
+.mid-con{
+    /*max-width: 640px;*/
+    max-width: 800px;
+    /*background-color: #EAF6F6;*/
+    /*background-color:lightgray;*/
+    /*background-color:#EEEEEE;*/
+    /*background-color: #71C9CE;*/
+    background-color: #F0F0F0;
+
+    position: relative;
+    padding:20px 0px;
+    margin: auto;
+}
+
+.bottom-con{
+    padding: 50px;
+}
+/*******Images**********/
+img{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.single_img {
+  width: 97.5%;  /*97.55 or 70%*/
+  height: auto;
+}
+.info_card{
+  width: 70%;
+  height: auto;
+}
+.big_img:hover, .big_img:active {
+    -webkit-transform:scale(1.5); /* or some other value they used 1.5 */
+    transform:scale(1.5);
+}
+.round_info_img{
+
+    border-radius: 50%;
+    width: 25%;
+    height:auto;
+    text-align:left;
+
+}
+/********Coding*******/
+.bash_box{
+    text-align:left;
+    padding:10;
+    color: black;
+    background-color:white;
+    font-size: 1em;
+}
+.codebox{
+    text-align:left;
+    padding:0;
+}
+pre{
+    margin: 0;
+    border: 0;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: auto;
+    background-color: white;
+    color: black;
+    text-align:left;
+}
+figure{
+    margin: 0px;
+    padding: 0 10px;
+    border: 0;
+    /*width: 640px;*/
+}
+.bash_command{
+    color: #0d98ba;
+
+    font-weight:bold;
+}
+.bash_options{
+    color:purple;
+    font-weight:bold;
+}
+.bash_prompt{
+    /*color: #6577B3;*/
+    color:blue;
+}
+.bash_string{
+    color:orange;
+}
+
+
+.py_func{
+    color: purple;
+}
+
+.py_str{
+    color: green;
+}
+
+.py_rev{
+    color: maroon;
+}
+
