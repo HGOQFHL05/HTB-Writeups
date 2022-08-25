@@ -11,3 +11,5 @@ layout: home
 ## Walkthroughs
 
 [The Notebook](TheNotebook/)
+[Driver](Driver/)
+[Love](Love/)
